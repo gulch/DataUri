@@ -17,7 +17,7 @@ Then run
 
 ### Example
 
-`
+```php
 <?php
 require 'vendor/autoload.php';
 
@@ -34,4 +34,4 @@ use jnmorse\DataUri;
     <img src="<?=DataUri::make('image.jpg')?>">
 </body>
 </html>
-`
+```

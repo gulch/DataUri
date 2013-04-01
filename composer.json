@@ -1,0 +1,19 @@
+{
+    "name": "joseph/dataurl",
+    "description": "Converts images to the data URI schema",
+    "authors": [
+        {
+            "name": "Joseph Morse",
+            "email": "tamed.lionheart@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {"jnmorse": "src/"}
+    }
+}

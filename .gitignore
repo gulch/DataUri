@@ -1,0 +1,8 @@
+*.sublime-*
+*.jpg
+*.png
+*.gif
+*.lock
+index.php
+
+/vendor/

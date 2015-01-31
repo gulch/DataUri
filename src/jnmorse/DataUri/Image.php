@@ -19,7 +19,7 @@ class Image
 
     public function __toString ()
     {
-        $uri  = "data: {$this->type};base64,{$this->file}";
+        $uri  = "data:{$this->type};base64,{$this->file}";
 
         return $uri;
     }

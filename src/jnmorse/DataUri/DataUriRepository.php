@@ -6,12 +6,12 @@ class DataUriRepository
 {
     private $image;
 
-    public function __construct (Image $img)
+    public function __construct(Image $img)
     {
         $this->image = $img;
     }
 
-    public function __toString ()
+    public function __toString()
     {
         return (String) $this->image;
     }

@@ -7,7 +7,7 @@ class ExampleTest extends PHPUnit_Framework_TestCase
      *
      * @return void
      */
-    public function testTrue ()
+    public function testTrue()
     {
         $this->assertTrue(true);
     }
